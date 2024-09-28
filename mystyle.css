@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-body {
+.body1 {
     font-family: "Roboto Mono", monospace;
     margin: 0;
     padding: 0;
@@ -203,7 +203,8 @@ table th {
 }
 
 table tr td {
-    background-color: #94dfe9;
+    background-color: #ffffff;
+    color: #333;
     padding: 10px;
     text-align: center;
 }
@@ -214,8 +215,9 @@ table tr td {
 }
 
 .cell1 {
-    width: 300px;
-    text-align: center;
+    width: 500px;
+    text-align: justify;
+    line-height: 1.6;
 }
 
 .row2 {
@@ -223,7 +225,8 @@ table tr td {
 }
 
 .cell2 {
-    text-align: center;
+    text-align: justify;
+    line-height: 1.6;
 }
 
 .row3 {
@@ -231,7 +234,8 @@ table tr td {
 }
 
 .cell3 {
-    text-align: center;
+    text-align: justify;
+    line-height: 1.6;
 }
 
 .row4 {
@@ -239,29 +243,6 @@ table tr td {
 }
 
 .cell4 {
-    text-align: center;
-}
-
-#thidapng {
-    width: 180px;
-    height: 220px;
-    margin: 0;
-}
-
-#stpng {
-    width: 180px;
-    height: 180px;
-    margin: 0;
-}
-
-#ywpng {
-    width: 180px;
-    height: 180px;
-    margin: 0;
-}
-
-#tupng {
-    width: 180px;
-    height: 180px;
-    margin: 0 ;
+    text-align: justify;
+    line-height: 1.6;
 }
